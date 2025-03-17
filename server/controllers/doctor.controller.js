@@ -101,7 +101,7 @@ const loginDoctor = async (req, res) => {
       return res.status(400).json({
         success: false,
         message: "Incorrect Password, Invalid Credentials",
-        error: error,
+        // error: error,
       });
     }
   } catch (error) {
